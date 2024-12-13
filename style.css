@@ -1,0 +1,43 @@
+header {
+  height: 80px;
+  margin-top: -5px;
+  /* box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+  border-radius: 8px;
+}
+
+.header_links {
+  margin-left: 26%;
+  margin-top: 20px;
+}
+
+.link {
+  color: rgb(79, 69, 69);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.place {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.link:hover {
+  color: red;
+}
+
+.place:hover {
+  color: red;
+}
+
+.dishes img {
+  width: 80%;
+}
