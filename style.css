@@ -9,11 +9,12 @@ header {
   height: 45px;
   width: 45px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .header_links {
   margin-left: 26%;
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 .link {
@@ -38,6 +39,58 @@ header {
   color: red;
 }
 
+/* .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+} */
+
+.content-container {
+  width: 86%;
+  margin-left: 7%;
+}
+
+.dishes div {
+  margin-bottom: 100px;
+}
+
 .dishes img {
-  width: 80%;
+  width: 100%;
+  max-width: 288px;
+  height: auto;
+}
+
+.restaurant_logo {
+  border-radius: 12px;
+}
+
+.restaurant-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurant-item:hover {
+  transform: scale(0.95);
+  /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  */
+}
+
+.restaurant-item:hover img {
+  transform: scale(0.95);
+}
+
+.footer_links {
+  height: 50px;
+  width: 400px;
+  border: 1px solid rgba(128, 128, 128, 0.319);
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.footer_links:hover {
+  cursor: pointer;
+}
+
+.footer-conatainer {
+  background-color: rgb(240, 240, 245);
+  width: 100%;
 }
